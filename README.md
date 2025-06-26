@@ -114,3 +114,10 @@ flowchart TD
     B -->|Não| D[Encerrar]
     C --> D
 ```
+
+
+
+```mermaid
+flowchart TD
+  A --> B
+```
