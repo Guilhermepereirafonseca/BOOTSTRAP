@@ -106,3 +106,11 @@ Estilizar botões e algo muito simples, veja alguns botões
 - `btn-link` deixa o botão com caractericas de ser algo clicavel (*link*)
 - `btn-outline` muda o botão quando o usuário passa o mouse em cima
 - `btn-group` cria um grupo de botões, essa classe deve ser pai dos outros botões
+
+```mermaid
+flowchart TD
+    A[Início] --> B[Verificar condição]
+    B -->|Sim| C[Executar ação]
+    B -->|Não| D[Encerrar]
+    C --> D
+```
